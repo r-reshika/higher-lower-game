@@ -1,4 +1,4 @@
-const checkLogin=new Promise((resolve,reject)=>{
+const checkLogin= new Promise((resolve,reject)=>{
     let loggedIn=false;
     if(loggedIn){
         resolve("welcome you are logged in")
